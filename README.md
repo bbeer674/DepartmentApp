@@ -7,17 +7,18 @@ DepartmentApp is a **React Native** application built with **TypeScript**. It fo
 ## 📂 Project Structure
 
 DEPARTMENTAPP
-│── src/ # Main source code
-│ ├── components/ # Reusable UI components
-│ │ ├── Loading.tsx # Loading component
-│ │ ├── LoadingSmall.tsx # Small loading component
-│ ├── scenes/ # App screens
-│ │ ├── Department.tsx # Department screen
-│ ├── services/ # API and service logic
-│ │ ├── DepartmentService.tsx # Service handling department API
-│── App.tsx # Root component
-│── Constants.ts # Global constants
-│── package.json # Dependencies & scripts
+│── src/                        # Main source code
+│   ├── components/             # Reusable UI components
+│   │   ├── Loading.tsx         # Loading component
+│   │   ├── LoadingSmall.tsx    # Small loading component
+│   ├── scenes/                 # App screens
+│   │   ├── Department.tsx      # Department screen
+│   ├── services/               # API and service logic
+│   │   ├── DepartmentService.tsx  # Service handling department API
+│── App.tsx                     # Root component
+│── Constants.ts                 # Global constants
+│── package.json                 # Dependencies & scripts
+
 
 ## ⚙️ Setup & Run
 
